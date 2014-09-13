@@ -1,0 +1,9 @@
+name: egnt_client_dart
+version: 0.0.1
+description: EGNT client in dart
+dependencies:
+  browser: any
+  angular: 0.14.0
+  logging: any
+transformers: 
+- angular
