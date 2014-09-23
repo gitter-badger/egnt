@@ -8,7 +8,7 @@ packages:
   angular:
     description: angular
     source: hosted
-    version: "0.14.0"
+    version: "0.13.0"
   args:
     description: args
     source: hosted
@@ -40,11 +40,19 @@ packages:
   intl:
     description: intl
     source: hosted
-    version: "0.11.7"
+    version: "0.8.10+4"
   logging:
     description: logging
     source: hosted
     version: "0.9.2"
+  matcher:
+    description: matcher
+    source: hosted
+    version: "0.11.1"
+  meta:
+    description: meta
+    source: hosted
+    version: "0.8.8"
   path:
     description: path
     source: hosted
@@ -53,18 +61,22 @@ packages:
     description: perf_api
     source: hosted
     version: "0.0.9"
-  petitparser:
-    description: petitparser
-    source: hosted
-    version: "1.2.2"
   pool:
     description: pool
     source: hosted
     version: "1.0.1"
+  quiver:
+    description: quiver
+    source: hosted
+    version: "0.18.2"
   route_hierarchical:
     description: route_hierarchical
     source: hosted
     version: "0.4.22"
+  sockjs_client:
+    description: sockjs_client
+    source: hosted
+    version: "0.2.0"
   source_maps:
     description: source_maps
     source: hosted
@@ -77,11 +89,27 @@ packages:
     description: stack_trace
     source: hosted
     version: "1.0.2"
+  stomp:
+    description: stomp
+    source: hosted
+    version: "0.7.2"
+  stomp_sockjs:
+    description: stomp_sockjs
+    source: hosted
+    version: "0.0.1"
   typed_mock:
     description: typed_mock
     source: hosted
     version: "0.0.4"
+  unittest:
+    description: unittest
+    source: hosted
+    version: "0.11.0+5"
   utf:
     description: utf
     source: hosted
     version: "0.9.0+1"
+  web_components:
+    description: web_components
+    source: hosted
+    version: "0.3.5+1"

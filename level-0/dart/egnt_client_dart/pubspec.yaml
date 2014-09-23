@@ -2,8 +2,10 @@ name: egnt_client_dart
 version: 0.0.1
 description: EGNT client in dart
 dependencies:
-  browser: any
-  angular: 0.14.0
-  logging: any
+  angular: 0.13.0
+  stomp: 0.7.2
+  stomp_sockjs: 0.0.1
+dev_dependencies:
+  unittest: any
 transformers: 
 - angular
