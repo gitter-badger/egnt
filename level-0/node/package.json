@@ -1,0 +1,10 @@
+{
+  "name": "egnt",
+  "version": "0.0.1",
+  "description": "BurningDuck - egnt",
+  "main": "server.js",
+  "author": "janroesler@gmail.com",
+  "dependencies": {
+    "express": "^4.9.3"
+  }
+}
