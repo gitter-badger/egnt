@@ -5,6 +5,8 @@
   "main": "server.js",
   "author": "janroesler@gmail.com",
   "dependencies": {
-    "express": "^4.9.3"
+    "bower": "^1.3.11",
+    "express": "^4.9.5",
+    "socket.io": "^1.1.0"
   }
 }

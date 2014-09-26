@@ -1,0 +1,69 @@
+
+body {
+    color: #fff;
+    background-color: #222;
+    font: 13px Helvetica, Arial;
+}
+
+div.head {
+    width: 100%;
+    height: 100px;
+    background-color: #A83C38;
+    border-radius: 4px;    
+}
+
+div.center {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+}
+
+p input { 
+    border: 0; 
+    padding: 10px; 
+    width: 90%; 
+    margin-top: 10px;
+    border-radius: 4px; 
+    background-color: #444;
+    color: #fff;
+    outline: 0;
+}
+
+p button { 
+    width: 9%; 
+    background-color: #4BA838;
+    border: none; 
+    padding: 10px; 
+    border-radius: 4px;
+    outline: 0;
+}
+
+
+#messages { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+}
+#messages li { 
+    padding: 5px 10px; 
+}
+#messages li:nth-child(odd) { 
+    background: #333; 
+    border-radius: 4px;
+}
+
+
+/* Logo Pulse */
+
+.pulse {
+    height: 75px;
+    width: 75px;
+    -webkit-animation: pulsate 5s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(1.2, 1.2); opacity: 0.6;}
+    50% {-webkit-transform: scale(1.0, 1.0); opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.6;}
+}
